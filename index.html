@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main>
+        <section class="quiz">
+            <div class="heading">
+                <p class="title">notNotion</p>
+                <p class="subtitle">Daily Quiz to Test Your Javascript Knowledge!</p>
+            </div>
+            <div class="result hide">
+                <p></p>
+                <p class="reload">
+                    <button onclick="window.location.reload(true);">Try Again?</button>
+                </p>
+            </div>
+            <form class="quiz-form">
+                <div class="question">
+                    <p>1. What is JavaScript primarily used for?</p>
+                    <div class="option">
+                        <input type="radio" name="q1" value="A" checked>
+                        <label for="">Server-side scripting</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="B">
+                        <label for="">Styling web pages</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="C">
+                        <label for="">Creating interactive web pages</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q1" value="D">
+                        <label for="">Database management</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>2. How do you declare a JavaScript variable?</p>
+                    <div class="option">
+                        <input type="radio" name="q2" value="A" checked>
+                        <label for="">variable name = value;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="B">
+                        <label for="">var name = value;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="32" value="C">
+                        <label for="">v name = value;</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q2" value="D">
+                        <label for="">declare name = value;</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>3. What is the output of console.log(typeof null)?</p>
+                    <div class="option">
+                        <input type="radio" name="q3" value="A" checked>
+                        <label for=""> "null"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="B">
+                        <label for=""> "undefined"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q3" value="C">
+                        <label for="">"object"</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q34 value=" D">
+                        <label for=""> "string"</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>4. Which operator is used to assign a value to a variable?</p>
+                    <div class="option">
+                        <input type="radio" name="q4" value="A" checked>
+                        <label for="">*</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="B">
+                        <label for="">=</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="C">
+                        <label for="">:</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q4" value="D">
+                        <label for="">==</label>
+                    </div>
+                </div>
+                <div class="question">
+                    <p>5. Which method is used to remove the last element of an array?</p>
+                    <div class="option">
+                        <input type="radio" name="q5" value="A" checked>
+                        <label for="">remove()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="B">
+                        <label for="">pop()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="C">
+                        <label for="">delete()</label>
+                    </div>
+                    <div class="option">
+                        <input type="radio" name="q5" value="D">
+                        <label for="">slice()</label>
+                    </div>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
